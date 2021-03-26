@@ -9,6 +9,7 @@ sudo apt-get -y purge slapd
 echo "slapd slapd/password1 password root" | sudo debconf-set-selections
 echo "slapd slapd/password2 password root" | sudo debconf-set-selections
 sudo apt-get -y install slapd ldap-utils
+sudo servicd slapd start
 # Populate LDAP database
 ldapadd -c -x -D cn=admin,dc=nodomain -w root -f $1
 # Search LDAP database to get all entities
