@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+	address 10.109.44.56/16
+	address 19.21.15.30/27
+	address 35.61.170.169/8
+	hwaddress 2E:8B:1E:43:CC:12
+	hwaddress 6A:3D:37:F0:1D:AC
+	hwaddress 6C:9E:26:43:1B:06
+	hwaddress 79:B5:D2:C0:F5:58
+	hwaddress 81:81:DF:80:15:41
+iface castle2 inet static
+iface ftdi2 inet static
+iface moths1 inet static
+iface ruins0 inet static
+iface wealth3 inet static
+iface wealth4 inet static
+iface wlan0 inet static inherits moths1
+iface wlan1 inet static
+	mtu 6932
+	mtu 7224
+	mtu 7504
+	mtu 8442
+	mtu 8588

@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+	address 102.147.185.74/4
+	address 114.37.81.144/1
+	address 13.192.48.164/29
+	address 34.128.91.138/9
+	address 76.186.32.193/24
+	hwaddress E0:29:23:CB:54:DF
+	hwaddress E1:4B:CD:45:BC:52
+iface eth1 inet static
+iface eth2 inet static
+iface ftdi4 inet dhcp inherits wealth1
+iface jam3 inet static inherits wealth1
+iface jam6 inet static
+iface ruins0 inet static
+iface wealth1 inet static
+iface wlan0 inet static inherits wealth1
+iface wlan5 inet dhcp
+	mtu 2908
+	mtu 5219

@@ -1,0 +1,16 @@
+
+
+
+
+
+	address 24.182.143.55/31
+	address 77.97.40.203/8
+	hwaddress 80:14:54:2C:B2:82
+	hwaddress C5:83:E3:09:BB:93
+iface eth1 inet static
+iface ftdi0 inet static
+iface moths0 inet static
+iface moths1 inet static
+iface wlan2 inet dhcp inherits moths0
+	mtu 2013
+	mtu 8699
