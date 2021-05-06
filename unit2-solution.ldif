@@ -138,7 +138,7 @@ manager: cn=Fiona Brown,ou=Rhetorical devices,ou=Interplanetary exploration
 dn: cn=Mario Lee,ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain
 cn: Mario Lee
 sn: Lee
-mail: mario513@siderealproductions.com.aq
+mail: mario5l3@siderealproductions.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672128333
@@ -180,7 +180,7 @@ telephoneNumber: +672101862
 telephoneNumber: +672101362
 manager: cn=Matthew Evans,ou=Pest control,ou=Embezzelment
 
-dn: cn=Freda Evans,ou=Environmental exloitation,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
+dn: cn=Freda Evans,ou=Environmental exploitation,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 cn: Freda Evans
 sn: Evans
 mail: fe9@conglomeratedreplicas.com.ki
@@ -366,7 +366,7 @@ telephoneNumber: +6571382344
 manager: cn=Micah Walker,ou=Research,ou=Manufacture,ou=Misappropriation
 
 dn: cn=Fran Wright,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
-cn: Frain Wright
+cn: Fran Wright
 sn: Wright
 mail: fwright@consolidatedimports.com.aq
 objectClass: organizationalPerson
