@@ -172,7 +172,7 @@ manager: cn=Fifi Wilson,ou=Rhetorical devices,ou=Interplanetary exploration
 dn: cn=Freya Robinson,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain                                 
 cn: Freya Robinson
 sn: Robinson
-mail: freya5r8@internationalcomponents.con.aq
+mail: freya5r8@internationalcomponents.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672101179
@@ -270,7 +270,7 @@ manager: cn=Matthew Johnson,ou=Sub-divisions,ou=Embezzelment
 dn: cn=Morgan Jones,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
 cn: Morgan Jones
 sn: Jones
-mail: mjones@conglomeratedimports.com.ki
+mail: mjones@conglomeratedreplicas.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 manager: cn=Fiona Brown,ou=Rhetorical devices,ou=Interplanetary exploration
@@ -336,7 +336,7 @@ manager: cn=Murray Thompson,ou=Sub-divisions,ou=Manufacture
 dn: cn=Fifi Lewis,ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain
 cn: Fifi Lewis
 sn: Lewis
-mail: fifi415@internationalcomponenets.com.aq
+mail: fifi4l5@internationalcomponents.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672101412
@@ -356,7 +356,7 @@ manager: cn=Matthew Evans,ou=Pest control,ou=Embezzelment
 dn: cn=Murphey Williams,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
 cn: Murphey Williams
 sn: Williams
-mail: murphey.williams@consolidatedsupplies.con.nz
+mail: murphey.williams@consolidatedsupplies.com.nz
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +6571382809
@@ -531,7 +531,7 @@ mail: mitchell.watson@conglomeratedreplicas.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634301633
-telephoneNumber: +68634301808
+telephoneNumber: +68634301868
 telephoneNumber: +68634301514
 telephoneNumber: +68634301527
 manager: cn=Fran White,ou=Sub-divisions,ou=Manufacture
