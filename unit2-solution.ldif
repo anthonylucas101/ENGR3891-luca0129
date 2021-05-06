@@ -46,7 +46,7 @@ ou: Interplanetary exploration
 objectClass: organizationalUnit
 
 dn: ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
-ou: Rhetorical Devices
+ou: Rhetorical devices
 objectClass: organizationalUnit
 
 dn: ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
@@ -455,7 +455,7 @@ manager: cn=Frances Johnson,ou=Environmental exploitation,ou=Marketing,ou=Sub-di
 
 dn: cn=Freya Wright,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 cn: Freya Wright
-sn: Freya
+sn: Wright
 mail: fw37@siderealproductions.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
@@ -477,7 +477,7 @@ manager: cn=Morgan Cooper,ou=Embezzelment
 
 dn: cn=Freda White,ou=Research,ou=Manufacture,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
 cn: Freda White
-sn: Freda
+sn: White
 mail: freda5w5@consolidatedimports.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
