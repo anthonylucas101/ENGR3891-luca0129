@@ -4,119 +4,119 @@ objectClass: dcObject
 objectClass: organization
 o: nodomain
 dc: nodomain
- 
+
 dn: cn=admin,dc=nodomain
 objectClass: simpleSecurityObject
 objectClass: organizationalRole
 cn: admin
 description: LDAP administrator
- 
+
 dn: dc=Consolidated Imports,dc=nodomain
 dc: Consolidated Imports
 objectClass: dcObject
 objectClass: organization
-o: Consolidated Imports. 
- 
+o: Consolidated Imports.
+
 dn: dc=Sidereal Productions,dc=nodomain
 dc: Sidereal Productions
 objectClass: dcObject
 objectClass: organization
 o: Sidereal Productions.
- 
+
 dn: dc=Conglomerated Replicas,dc=nodomain
 dc: Conglomerated Replicas
 objectClass: dcObject
 objectClass: organization
 o: Conglomerated Replicas.
- 
+
 dn: dc=Consolidated Supplies,dc=nodomain
 dc: Consolidated Supplies
 objectClass: dcObject
 objectClass: organization
 o: Consolidated Supplies.
- 
+
 dn: dc=International Components,dc=nodomain
-dc: International Components     
+dc: International Components    
 objectClass: dcObject
 objectClass: organization
 o: International Components.
- 
+
 dn: ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
 ou: Interplanetary exploration
 objectClass: organizationalUnit
- 
+
 dn: ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
-ou: Rhetocial Devices 
+ou: Rhetocial Devices
 objectClass: organizationalUnit
- 
+
 dn: ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
-ou: Misappropriation 
+ou: Misappropriation
 objectClass: organizationalUnit
- 
+
 dn: ou=Manufacture,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
-ou: Manufacture         
+ou: Manufacture        
 objectClass: organizationalUnit
- 
+
 dn: ou=Research,ou=Manufacture,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
-ou: Research         
+ou: Research        
 objectClass: organizationalUnit
- 
+
 dn: ou=Interior decoration,ou=Research,ou=Manufacture,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
-ou: Interior decoration        
+ou: Interior decoration       
 objectClass: organizationalUnit
- 
+
 dn: ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
-ou: Embezzelment        
+ou: Embezzelment       
 objectClass: organizationalUnit
- 
+
 dn: ou=Pest control,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 ou: Pest control
 objectClass: organizationalUnit
- 
+
 dn: ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 ou: Sub-divisions
 objectClass: organizationalUnit
- 
+
 dn: ou=Environmental exloitation,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 ou: Environmental exploitation
 objectClass: organizationalUnit
- 
+
 dn: ou=Sub-divisions,dc=Consolidated Supplies,dc=nodomain
 ou: Sub-divisions
 objectClass: organizationalUnit
- 
+
 dn: ou=Marketing,ou=Sub-divisions,dc=Consolidated Supplies,dc=nodomain
 ou: Marketing
 objectClass: organizationalUnit
- 
+
 dn: ou=Environmental exploitation,ou=Marketing,ou=Sub-divisions,dc=Consolidated Supplies,dc=nodomain
 ou: Environmental exploutation
 objectClass: organizationalUnit
- 
+
 dn: ou=Manufacture,dc=International Components,dc=nodomain
 ou: Manufacture
 objectClass: organizationalUnit
- 
+
 dn: ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain
-ou: Sub-divisions  
+ou: Sub-divisions 
 objectClass: organizationalUnit
- 
+
 dn: cn=Fiona Brown,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
 cn: Fiona Brown
-sn: Brown 
+sn: Brown
 mail: fbrown@conglomeratedreplicas.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634301418
- 
+
 dn: cn=Matthew Johnson,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
-cn: Matthew Johnson 
+cn: Matthew Johnson
 sn: Johnson
 mail: matthew7j7@consolidatedsupplies.com.nz
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
- 
-dn: cn=Murphey King,ou=Pest control,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain 
+
+dn: cn=Murphey King,ou=Pest control,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain
 cn: Murphey King
 sn: King
 mail: murphey.king@internationalcomponents.com.aq
@@ -124,7 +124,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672101320
 manager: cn=Matthew Johnson,ou=Sub-divisions,ou=Embezzelment
- 
+
 dn: cn=Fifi Wilson,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
 cn: Fifi Wilson
 sn: Wilson
@@ -134,7 +134,7 @@ objectClass: inetOrgPerson
 telephoneNumber: +6571382931
 telephoneNumber: +6571382244
 manager: cn=Fiona Brown,ou=Rhetorical devices,ou=Interplanetary exploration
- 
+
 dn: cn=Mario Lee,ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain
 cn: Mario Lee
 sn: Lee
@@ -142,34 +142,34 @@ mail: mario513@siderealproductions.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672128333
- 
-dn: cn=Fran King,ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain                           
+
+dn: cn=Fran King,ou=Sub-divisions,ou=Manufacture,dc=International Components,dc=nodomain                          
 cn: Fran King
 sn: King
 mail: fking@siderealproductions.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 manager: cn=Mario Lee,ou=Sub-divisions,ou=Manufacture
- 
-dn: cn=Matthew Evans,ou=Pest control,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain                                                                              
+
+dn: cn=Matthew Evans,ou=Pest control,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain                                                                             
 cn: Matthew Evans
 sn: Evans
 mail: mevans@consolidatedimports.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-manager: cn=Matthew Johnson,ou=Sub-divisions,ou=Embezzelment  
- 
-dn: cn=Flora Taylor,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain                                                              
+manager: cn=Matthew Johnson,ou=Sub-divisions,ou=Embezzelment 
+
+dn: cn=Flora Taylor,ou=Rhetorical devices,ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain                                                             
 cn: Flora Taylor
 sn: Taylor
 mail: ftaylor@siderealproduction.com.aq
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-telephoneNumber: +672128446                                                             
+telephoneNumber: +672128446                                                            
 telephoneNumber: +672128084
-manager: cn=Fifi Wilson,ou=Rhetorical devices,ou=Interplanetary exploration  
- 
-dn: cn=Freya Robinson,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain                                 
+manager: cn=Fifi Wilson,ou=Rhetorical devices,ou=Interplanetary exploration 
+
+dn: cn=Freya Robinson,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain                                
 cn: Freya Robinson
 sn: Robinson
 mail: freya5r8@internationalcomponents.com.aq
@@ -177,10 +177,10 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672101179
 telephoneNumber: +672101862
-telephoneNumber: +672101362                                                                        
+telephoneNumber: +672101362                                                                       
 manager: cn=Matthew Evans,ou=Pest control,ou=Embezzelment
- 
-dn: cn=Freda Evans,ou=Environmental exloitation,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain    
+
+dn: cn=Freda Evans,ou=Environmental exloitation,ou=Sub-divisions,ou=Embezzelment,dc=Conglomerated Replicas,dc=nodomain   
 cn: Freda Evans
 sn: Evans
 mail: fe9@conglomeratedreplicas.com.ki
@@ -189,9 +189,9 @@ objectClass: inetOrgPerson
 telephoneNumber: +68634301837
 telephoneNumber: +68634301726
 manager: cn=Matthew Evans,ou=Pest control,ou=Embezzelment
- 
+
 dn: cn=Fifi Williams,ou=Research,ou=Manufacture,ou=Misappropriation,dc=Sidereal Productions,dc=nodomain
-cn: Fifi Williams 
+cn: Fifi Williams
 sn: Williams
 mail: fifi4w8@consolidatedimports.com.aq
 objectClass: organizationalPerson
