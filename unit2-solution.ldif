@@ -15,31 +15,31 @@ dn: dc=Consolidated Imports,dc=nodomain
 dc: Consolidated Imports
 objectClass: dcObject
 objectClass: organization
-o: Consolidated Imports 
+o: Consolidated Imports. 
  
 dn: dc=Sidereal Productions,dc=nodomain
 dc: Sidereal Productions
 objectClass: dcObject
 objectClass: organization
-o: Sidereal Productions
+o: Sidereal Productions.
  
 dn: dc=Conglomerated Replicas,dc=nodomain
 dc: Conglomerated Replicas
 objectClass: dcObject
 objectClass: organization
-o: Conglomerated Replicas
+o: Conglomerated Replicas.
  
 dn: dc=Consolidated Supplies,dc=nodomain
 dc: Consolidated Supplies
 objectClass: dcObject
 objectClass: organization
-o: Consolidated Supplies
+o: Consolidated Supplies.
  
 dn: dc=International Components,dc=nodomain
 dc: International Components     
 objectClass: dcObject
 objectClass: organization
-o: International Components
+o: International Components.
  
 dn: ou=Interplanetary exploration,dc=Consolidated Imports,dc=nodomain
 ou: Interplanetary exploration
