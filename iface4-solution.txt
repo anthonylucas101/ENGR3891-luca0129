@@ -1,0 +1,26 @@
+iface ruins0 inet static
+	mtu 2908
+	hwaddress E1:4B:CD:45:BC:52
+
+iface wealth1 inet static
+	mtu 5219
+	hwaddress E0:29:23:CB:54:DF
+
+iface wlan0 inet static inherits wealth1
+	address 76.186.32.193/24
+
+iface eth1 inet static
+	address 13.192.48.164/29
+
+iface eth2 inet static
+	address 114.37.81.144/1
+
+iface jam3 inet static inherits wealth1
+	address 102.147.185.74/4
+
+iface ftdi4 inet dhcp inherits wealth1
+
+iface wlan5 inet dhcp
+
+iface jam6 inet static
+	address 34.128.91.138/9
