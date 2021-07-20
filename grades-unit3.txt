@@ -1,1 +1,11 @@
+Incorrect answer for question 51 in 'unit3/answers.txt'
+Incorrect answer for question 52 in 'unit3/answers.txt'
+Incorrect answer for question 56 in 'unit3/answers.txt'
+Incorrect answer for question 57 in 'unit3/answers.txt'
+Incorrect answer for question 58 in 'unit3/answers.txt'
+Incorrect answer for question 59 in 'unit3/answers.txt'
+Incorrect answer for question 63 in 'unit3/answers.txt'
+Incorrect answer for question 79 in 'unit3/answers.txt'
+360/400 after HASH:unit3/answers.txt:unit3/check.txt
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt | wc -l > wc.log
 NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.
