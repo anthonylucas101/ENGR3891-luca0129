@@ -5,7 +5,7 @@ NOTE: This result is still provision, and subject to change and scaling.
       ASSIGNMENT: F
   WORK UNIT #1: F
   WORK UNIT #2: CR
-  WORK UNIT #3: F
+  WORK UNIT #3: CR
   WORK UNIT #4: F
   WORK UNIT #5: HD
   WORK UNIT #6: F
