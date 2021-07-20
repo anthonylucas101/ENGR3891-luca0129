@@ -1,3 +1,13 @@
+8a9
+> 
+7a8
+> 
+4a5
+> 
+6a7
+> 
+8a9
+> 
 Incorrect answer for question 51 in 'unit3/answers.txt'
 Incorrect answer for question 52 in 'unit3/answers.txt'
 Incorrect answer for question 56 in 'unit3/answers.txt'
@@ -8,4 +18,75 @@ Incorrect answer for question 63 in 'unit3/answers.txt'
 Incorrect answer for question 79 in 'unit3/answers.txt'
 360/400 after HASH:unit3/answers.txt:unit3/check.txt
 diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt | wc -l > wc.log
+Diff output has 2 lines different:
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt
+Answer file 'unit3/iface0-solution.txt' has incorrect hash -- something is not exactly correct.
+428/500 after SORT:unit3/iface0-solution.txt:unit3/iface0-sorted.txt:unit3/iface0-hash.txt
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt | wc -l > wc.log
+Diff output has 2 lines different:
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt
+Answer file 'unit3/iface1-solution.txt' has incorrect hash -- something is not exactly correct.
+497/600 after SORT:unit3/iface1-solution.txt:unit3/iface1-sorted.txt:unit3/iface1-hash.txt
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt | wc -l > wc.log
+Diff output has 2 lines different:
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt
+Answer file 'unit3/iface2-solution.txt' has incorrect hash -- something is not exactly correct.
+562/700 after SORT:unit3/iface2-solution.txt:unit3/iface2-sorted.txt:unit3/iface2-hash.txt
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt | wc -l > wc.log
+Diff output has 2 lines different:
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt
+Answer file 'unit3/iface3-solution.txt' has incorrect hash -- something is not exactly correct.
+630/800 after SORT:unit3/iface3-solution.txt:unit3/iface3-sorted.txt:unit3/iface3-hash.txt
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt | wc -l > wc.log
+Diff output has 2 lines different:
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt
+Answer file 'unit3/iface4-solution.txt' has incorrect hash -- something is not exactly correct.
+699/900 after SORT:unit3/iface4-solution.txt:unit3/iface4-sorted.txt:unit3/iface4-hash.txt
+No entry '48.67.230.0     10.1.1.2        255.255.255.128 ' in file 'unit3/routetable0add.log'
+No entry '53.60.10.128    0.0.0.0         255.255.255.224 ' in file 'unit3/routetable0add.log'
+No entry '23.83.128.0     0.0.0.0         255.255.192.0   ' in file 'unit3/routetable0add.log'
+No entry '32.65.160.0     10.1.1.2        255.255.224.0   ' in file 'unit3/routetable0add.log'
+No entry '54.197.154.0    10.1.1.2        255.255.254.0   ' in file 'unit3/routetable0add.log'
+No entry '106.117.8.0     0.0.0.0         255.255.252.0   ' in file 'unit3/routetable0add.log'
+6 entries in route table were wrong.
+699/925 after MATCH:+unit3/routes0.txt:unit3/routetable0add.log
+724/950 after MATCH:-unit3/routes0.txt:unit3/routetable0del.log
+No entry '43.228.128.0    10.1.1.2        255.255.192.0   ' in file 'unit3/routetable1add.log'
+No entry '33.124.159.0    0.0.0.0         255.255.255.0   ' in file 'unit3/routetable1add.log'
+No entry '86.184.160.0    0.0.0.0         255.255.224.0   ' in file 'unit3/routetable1add.log'
+No entry '40.209.33.8     10.1.1.2        255.255.255.252 ' in file 'unit3/routetable1add.log'
+No entry '63.219.192.0    10.1.1.2        255.255.254.0   ' in file 'unit3/routetable1add.log'
+No entry '48.78.176.0     10.1.1.2        255.255.248.0   ' in file 'unit3/routetable1add.log'
+6 entries in route table were wrong.
+724/975 after MATCH:+unit3/routes1.txt:unit3/routetable1add.log
+749/1000 after MATCH:-unit3/routes1.txt:unit3/routetable1del.log
+No entry '66.107.120.0    0.0.0.0         255.255.248.0   ' in file 'unit3/routetable2add.log'
+No entry '32.190.0.0      10.1.1.2        255.255.0.0     ' in file 'unit3/routetable2add.log'
+No entry '114.56.200.12   10.1.1.2        255.255.255.252 ' in file 'unit3/routetable2add.log'
+No entry '75.25.64.0      0.0.0.0         255.255.224.0   ' in file 'unit3/routetable2add.log'
+No entry '92.132.250.128  10.1.1.2        255.255.255.128 ' in file 'unit3/routetable2add.log'
+No entry '88.18.109.76    10.1.1.2        255.255.255.254 ' in file 'unit3/routetable2add.log'
+6 entries in route table were wrong.
+749/1025 after MATCH:+unit3/routes2.txt:unit3/routetable2add.log
+774/1050 after MATCH:-unit3/routes2.txt:unit3/routetable2del.log
+No entry '69.94.0.0       0.0.0.0         255.255.192.0   ' in file 'unit3/routetable3add.log'
+No entry '55.150.128.0    10.1.1.2        255.255.128.0   ' in file 'unit3/routetable3add.log'
+No entry '51.150.27.64    10.1.1.2        255.255.255.192 ' in file 'unit3/routetable3add.log'
+No entry '24.198.130.0    0.0.0.0         255.255.255.0   ' in file 'unit3/routetable3add.log'
+No entry '22.254.32.0     10.1.1.2        255.255.240.0   ' in file 'unit3/routetable3add.log'
+No entry '50.183.247.0    0.0.0.0         255.255.255.0   ' in file 'unit3/routetable3add.log'
+6 entries in route table were wrong.
+774/1075 after MATCH:+unit3/routes3.txt:unit3/routetable3add.log
+799/1100 after MATCH:-unit3/routes3.txt:unit3/routetable3del.log
+No entry '88.182.0.0      0.0.0.0         255.255.0.0     ' in file 'unit3/routetable4add.log'
+No entry '122.72.125.0    0.0.0.0         255.255.255.128 ' in file 'unit3/routetable4add.log'
+No entry '29.105.160.0    0.0.0.0         255.255.240.0   ' in file 'unit3/routetable4add.log'
+No entry '94.187.0.0      10.1.1.2        255.255.0.0     ' in file 'unit3/routetable4add.log'
+No entry '22.109.137.204  10.1.1.2        255.255.255.252 ' in file 'unit3/routetable4add.log'
+No entry '117.135.44.0    10.1.1.2        255.255.255.0   ' in file 'unit3/routetable4add.log'
+6 entries in route table were wrong.
+799/1125 after MATCH:+unit3/routes4.txt:unit3/routetable4add.log
+824/1150 after MATCH:-unit3/routes4.txt:unit3/routetable4del.log
+SUMMARY:824/1150
+TOTAL:71
 NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.
